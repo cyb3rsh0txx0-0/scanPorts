@@ -1,6 +1,6 @@
 ## RECOMENDACION
 
-Escaneo de puertos abiertos a objetivo deseado , se recomienda usar comando de super usaurio
+Escaneo de puertos abiertos a objetivo deseado , se recomienda usar comando de super usuario
 
 ## EJEMPLO
 
