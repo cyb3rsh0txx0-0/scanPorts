@@ -10,6 +10,7 @@ has=int(input('Ingrese el puerto hasta quiere terminar el escaneo : '))
 
 PORTS=range(des,has)
 
+
 puertos=[]
 def portSC(puerto):
         try:
@@ -17,7 +18,7 @@ def portSC(puerto):
             s.settimeout(1)
             s.connect((TARGET,puerto))
             print('---PUERTOS ABIERTOS----\n')
-            print(f'open port {puerto} \n')
+            print(f'puerto =>  {puerto} \n')
             print('-----------------------')
             puertos.append(puerto)
         except:
